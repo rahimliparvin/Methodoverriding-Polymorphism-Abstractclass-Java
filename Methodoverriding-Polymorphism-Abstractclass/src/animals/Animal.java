@@ -3,7 +3,7 @@ package animals;
 public class Animal {
 
 
-    public static Integer age;
+    public static Integer age = 1;
 
     public static void sayMyName(){
         System.out.println("My name is Animal");
@@ -24,10 +24,10 @@ public class Animal {
 //        this.name = name;
 //    }
 //
-//    public Integer getAge() {
-//        return age;
-//    }
-//
+    public Integer getAge() {
+        return age;
+    }
+
 //    public void setAge(Integer age) {
 //        this.age = age;
 //    }
